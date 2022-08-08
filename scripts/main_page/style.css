@@ -16,6 +16,12 @@
 
 .container{
     height: 100vh;
-    width: 100vh;
+    width: 207.7vh;
     background-image: url(mainbackground.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
 }
