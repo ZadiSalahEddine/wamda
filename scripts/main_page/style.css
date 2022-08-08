@@ -1,0 +1,21 @@
+@font-face {
+    font-family: geom_normal;
+    src: url(src/geometria-cufonfonts/Geometria.ttf);
+
+}
+@font-face {
+    font-family: geom_bold;
+    src: url(src/geometria-cufonfonts/Geometria-Bold.ttf);
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100vh;
+    background-image: url(mainbackground.jpg);
+}
