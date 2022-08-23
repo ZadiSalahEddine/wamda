@@ -50,35 +50,30 @@ body{
 
 
 
-.container .head_container , .startupContainer{
+.container .head_container , .startupContainer , .categoriesContainer{
     height: 500px;
     width: 1200px;
-    background: transparent;
-    backdrop-filter: blur(15px);
+    /* background: transparent; */
+    backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(10px);
-    border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 8px;
+    border: 0px solid rgba(100, 89, 89, 0.281);
     box-shadow: 0 8px 32px 0 #1d061a;
-
+    background: rgba(255,255,255,0.05);
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     box-sizing: content-box;
     display: flex;
     margin-top: 70px;
 }
 
-/* .triangle{
-    width: 300px;
-    height: 300px;
-    border-top: 180px solid transparent;
-    border-right: 340px solid #555;
-    border-bottom: 180px solid transparent;
-    position: absolute;
-    top: 800px;
-    left: 800px;
-} */
+
+
+
 
 .container .circleone {
 
-
+    filter:blur(1px);
     position: absolute;
     top : -120px;
     right:300px;
@@ -93,7 +88,7 @@ body{
 }
 
 
-.halfcircleone{
+.halfcircleone  {
     position: absolute;
     bottom : 170px;
     top: 400px;
@@ -106,10 +101,44 @@ body{
     background: rgb(203,44,44);
     background: linear-gradient(0deg, rgba(203,44,44,1) 0%, rgba(138,21,205,1) 100%);
     box-shadow: 0px 0px 153px 51px rgba(203,44,44,0.9);
-
+    filter:blur(1px);
 
 }
 
+
+.circleTwo , .circleThree {
+    background: rgb(203,44,44);
+    background: linear-gradient(0deg, rgba(203,44,44,1) 0%, rgba(138,21,205,1) 100%);
+    box-shadow: 0px 0px 153px 51px rgba(203,44,44,0.9);
+
+    content: '';
+    position: absolute;
+    bottom : 170px;
+    top: 2350px;
+    right:300px;
+    left: 1050px;
+    width: 260px;
+    height: 260px;
+    /* transform: skewX(24deg); */
+    filter: blur(1px);
+    
+
+    
+    border-radius: 50%;
+    
+    
+    
+    /* filter: blur(5px); */
+    
+
+}
+.circleThree{
+    top:1850px;
+    
+    left: -150px;
+    width: 340px;
+    height: 340px;
+}
 
 #thelogo{
     display: flex;
@@ -455,6 +484,8 @@ h2{
 }
 .blogsContainer .box .content p{
     font-size: 0.9em;
+    box-sizing: border-box;
+    min-height: 160.25px;
     margin-bottom: 10px;
     margin-top: 45px;
     line-height: 1.4em;
@@ -489,10 +520,22 @@ h2{
     background: linear-gradient(315deg,#4dff03,#00d0ff);
 }
 
+.categoriesContainer{
+    margin-top: -30px;
+    height: 800px;
+}
 
+.categoriesContainer #thirdhead{
+    font-size: 32px;
+}
 
-
-
+.ctagoriesContent{
+    margin-top: 70px;
+    margin-left: 100px;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 500px 500px  ;
+}
 
 
 
