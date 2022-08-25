@@ -50,7 +50,7 @@ body{
 
 
 
-.container .head_container , .startupContainer , .categoriesContainer{
+.container .head_container , .startupContainer , .categoriesContainer {
     height: 500px;
     width: 1200px;
     /* background: transparent; */
@@ -610,6 +610,84 @@ h2{
     font-size: 20px;
     color: #2044d1;
    
+}
+
+
+
+.footerGlow{
+    width: 60px;
+    height: 200px;
+    background: rgb(203,44,44);
+    background: linear-gradient(0deg, rgba(203,44,44,1) 0%, rgba(138,21,205,1) 100%);
+    box-shadow: 0px 0px 120px 51px rgba(203,44,44,0.1);
+    box-shadow: 0px 0px 130px 51px rgba(203,44,44,0.5);
+    box-shadow: 0px 0px 130px 81px rgba(203,44,44,0.5);
+    box-shadow: 0px 0px 130px 90 rgba(203,44,44,0.5);
+    
+    margin-left: -140px;
+    transform: skewX(40deg);
+    position: absolute;
+    top: 2920px;
+
+} 
+    
+    
+
+
+
+
+
+footer{
+    height: 400px;
+    width: 1400px;
+    margin-left: -100px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 8px;
+    border: 0px solid rgba(100, 89, 89, 0.281);
+    box-shadow: 0 8px 32px 0 #1d061a;
+    background: rgba(255,255,255,0.05);
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-sizing: content-box;
+    display: grid;
+    margin-top: 180px;
+    grid-template-columns:  25% 25% 25% 25% ;
+    grid-template-rows: 300px 100px;
+    
+    
+}
+
+footer .adress , footer .licesne  , footer .club ,footer .social{
+    margin-top: 52px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #a0a0a0;
+    margin-left: 80px;
+   
+}
+
+footer .licesne{
+    text-align: right;
+    margin-right: 60px;
+    
+}
+
+
+footer .club a , footer .social a{
+    text-decoration: none;
+    color: antiquewhite;
+
+
+    
+}
+
+
+footer .partners #partn1{
+    height: 70px;
+    width: 60px;
+    margin-left: 100px;
+    margin-top: 10px;
 }
 
 /* @media (min-width:1920px) {
