@@ -535,11 +535,65 @@ h2{
     width: 1000px;
     display: grid;
     grid-template-columns: 500px 500px  ;
+    grid-template-rows: 243.33px 243.33px 243.33px;
+    position: relative;
+   white-space: nowrap;
+   
+}
+
+
+
+.ctagoriesContent #arbPIC{
+    height: 115px;
+    display: inline;
+    margin-top: 60px;
+    margin-left: 0px;
+}
+.ctagoriesContent .catLinks , .ctagoriesContent .catLinks1 , .ctagoriesContent .catLinks2{
+    font-family: geom_bold;
+    font-size: 20px;
+    color: #fff;
+    display: inline-block;
+    left: 150px;
+    top: 60px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    position: absolute;
 }
 
 
 
 
+
+.ctagoriesContent .catp , .ctagoriesContent .catp1 , .ctagoriesContent .catp2{
+    font-family: geom_normal;
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    display: inline-block;
+    top: 100px;
+    left: 150px;
+}
+
+
+.ctagoriesContent .catLinks1 , .ctagoriesContent .catp1  {
+    left: 650px;
+}
+
+.ctagoriesContent .catLinks2 , .ctagoriesContent .catp2{
+    top: 300px;
+}
+
+.ctagoriesContent .catp2{
+    top: 340px;
+}
+.catLinks:hover , .catLinks1:hover{
+    
+    font-family: geom_bold;
+    font-size: 20px;
+    color: #2044d1;
+   
+}
 
 /* @media (min-width:1920px) {
     .container .circleone {
