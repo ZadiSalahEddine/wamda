@@ -549,7 +549,9 @@ h2{
     margin-top: 60px;
     margin-left: 0px;
 }
-.ctagoriesContent .catLinks , .ctagoriesContent .catLinks1 , .ctagoriesContent .catLinks2{
+.ctagoriesContent .catLinks ,  .ctagoriesContent .catLinks1 , .ctagoriesContent .catLinks2 ,
+.ctagoriesContent .catLinks3 , .ctagoriesContent .catLinks4 , .ctagoriesContent .catLinks5 
+{
     font-family: geom_bold;
     font-size: 20px;
     color: #fff;
@@ -560,12 +562,14 @@ h2{
     text-decoration: none;
     position: absolute;
 }
+ 
 
 
 
 
 
-.ctagoriesContent .catp , .ctagoriesContent .catp1 , .ctagoriesContent .catp2{
+.ctagoriesContent .catp , .ctagoriesContent .catp1 , .ctagoriesContent .catp2 ,
+.ctagoriesContent .catp3 , .ctagoriesContent .catp4 , .ctagoriesContent .catp5{
     font-family: geom_normal;
     color: #fff;
     font-size: 14px;
@@ -576,18 +580,31 @@ h2{
 }
 
 
-.ctagoriesContent .catLinks1 , .ctagoriesContent .catp1  {
+.ctagoriesContent .catLinks1 , .ctagoriesContent .catp1 , .ctagoriesContent .catp3 , .ctagoriesContent .catLinks3 , .ctagoriesContent .catLinks5,
+.ctagoriesContent .catp5 {
     left: 650px;
 }
 
-.ctagoriesContent .catLinks2 , .ctagoriesContent .catp2{
+.ctagoriesContent .catLinks2 , .ctagoriesContent .catp2 , .ctagoriesContent .catLinks3  {
     top: 300px;
 }
 
-.ctagoriesContent .catp2{
+
+
+.ctagoriesContent .catp2 , .ctagoriesContent .catp3 {
     top: 340px;
 }
-.catLinks:hover , .catLinks1:hover{
+/* {
+    left: 650px;
+} */
+
+.ctagoriesContent .catp4 , .ctagoriesContent .catLinks4 , .ctagoriesContent .catp5 , .ctagoriesContent .catLinks5{
+    top: 580px;
+}
+.ctagoriesContent .catLinks4 , .ctagoriesContent .catLinks5 {
+    top: 540px;
+}
+.catLinks:hover , .catLinks1:hover , .catLinks2:hover, .catLinks3:hover , .catLinks4:hover , .catLinks5:hover{
     
     font-family: geom_bold;
     font-size: 20px;
