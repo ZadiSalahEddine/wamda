@@ -1,10 +1,10 @@
 @font-face {
     font-family: geom_normal;
-    src: url(Geometria.ttf);
+    src: url(/wamda/sources/FontS/Geometria.ttf);
 }
 @font-face {
     font-family: geom_bold;
-    src: url(Geometria-Bold.ttf);
+    src: url(/wamda/sources/FontS/Geometria-Bold.ttf);
 }
 *{
     padding: 0;
